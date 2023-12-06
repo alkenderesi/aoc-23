@@ -1,0 +1,19 @@
+// Format details:
+// https://containers.dev/implementors/json_reference/
+{
+	"name": "rust",
+
+	// Use existing Docker images:
+	// https://hub.docker.com/search?q=
+	"image": "rust:latest",
+
+	// Configure tool-specific properties:
+	// https://containers.dev/supporting
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer"
+			]
+		}
+	}
+}
